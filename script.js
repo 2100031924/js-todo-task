@@ -7,11 +7,7 @@ let ol = document.querySelector("#taskList");
 button.addEventListener("click", () => {
     const taskValue = input.value;
 
-    // Stop if input is empty
-    if (taskValue.trim() === "") {
-        alert("Please type a task!");
-        return;
-    }
+    
 
     // Create new list item
     let li = document.createElement("li");
